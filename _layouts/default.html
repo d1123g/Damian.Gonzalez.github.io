@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <header>
+<header>
+    <div class="container">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/cv">CV</a>
+        <a href="{{ site.baseurl }}/publications">Publications</a>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=yourID" target="_blank">Scholar</a>
+      </nav>
+    </div>
+  </header>
+  
     <div class="container">
       <h1><a href="/">{{ site.title }}</a></h1>
       <nav>
