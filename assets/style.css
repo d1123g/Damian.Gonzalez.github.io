@@ -1,74 +1,58 @@
-/* assets/style.css */
-
-/* Layout */
 body {
-    font-family: Georgia, serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #fff;
+    color: #222;
   }
   
   .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 1.5em;
+    padding: 1rem;
   }
   
-  /* Header */
   header {
-    background-color: #004080;
-    color: white;
-    padding: 1em 0;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
   }
   
   header h1 {
     margin: 0;
-    font-size: 1.8em;
-  }
-  
-  header h1 a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Navigation */
-  nav {
-    margin-top: 0.5em;
+    font-size: 1.5rem;
   }
   
   nav a {
-    color: #cce6ff;
-    margin-right: 1em;
+    margin-right: 15px;
     text-decoration: none;
-    font-weight: bold;
+    color: #0055aa;
   }
   
   nav a:hover {
     text-decoration: underline;
   }
   
-  /* Main Content */
-  main h1, main h2, main h3 {
-    color: #222;
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
   }
   
-  /* Footer */
+  .profile-container img {
+    width: 180px;
+    border-radius: 8px;
+  }
+  
+  .bio {
+    max-width: 600px;
+  }
+  
   footer {
     text-align: center;
-    font-size: 0.9em;
+    padding: 1rem 0;
+    font-size: 0.9rem;
     color: #666;
-    margin-top: 2em;
-    border-top: 1px solid #ccc;
-    padding-top: 1em;
   }
-
-  img[alt="Damian Gonzalez"] {
-    border-radius: 50%;
-    width: 150px;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-  
   

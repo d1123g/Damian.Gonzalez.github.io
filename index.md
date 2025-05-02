@@ -3,15 +3,23 @@ layout: default
 title: Home
 ---
 
-<img src="/assets/profile.jpg" alt="Damian Gonzalez" style="width:150px; border-radius:50%; float:right; margin-left:20px;">
-
-I'm a researcher in Mechanical Engineering at Northwestern University. My work focuses on the design and optimization of high-speed actuators driven by electrostatic forces, with applications in microsystems, soft robotics, and precision manipulation.
-
-My research combines experimental techniques, microfabrication, and modeling to explore new approaches to fast and efficient actuation using electrostatics.
-
----
-
-- 📄 [Curriculum Vitae](cv)
-- 📚 [Publications](publications)
-- 💻 [GitHub](https://github.com/d1123g)
-- 🎓 [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=ufB5pCAAAAAJ)
+<div class="profile-container">
+  <img src="{{ site.baseurl }}/assets/profile.jpg" alt="Damian Gonzalez">
+  <div class="bio">
+    <h2>Damian Gonzalez</h2>
+    <p>Doctoral Candidate and Graduate Researcher<br>Mechanical Engineering, Northwestern University</p>
+    <p>
+      I specialize in the design and fabrication of lightweight, high energy density actuators based on electroadhesion. 
+      I develop electrostatic transducers that harness interfacial forces for applications in robotics, power transmission, 
+      dexterous manipulation, and advanced actuation. My interests lie at the intersection of robotics, interfacial phenomena, 
+      and electrostatics, where I integrate mechanics, novel fabrication techniques, and mechatronic systems to advance the 
+      state of the art in electrostatic actuation.
+    </p>
+    <p>
+      <a href="{{ site.baseurl }}/cv">CV</a> |
+      <a href="{{ site.baseurl }}/publications">Publications</a> |
+      <a href="https://github.com/d1123g" target="_blank">GitHub</a> |
+      <a href="https://scholar.google.com/citations?user=ufB5pCAAAAAJ&hl=en" target="_blank">Google Scholar</a>
+    </p>
+  </div>
+</div>
