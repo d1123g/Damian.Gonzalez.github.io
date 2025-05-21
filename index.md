@@ -9,7 +9,7 @@ title: Home
     <h2>Damian Gonzalez</h2>
     <p>Doctoral Candidate and Graduate Researcher<br>Mechanical Engineering, Northwestern University</p>
     <p>
-      I specialize in the design and fabrication of lightweight, high energy density actuators based on electroadhesion. 
+      I specialize in the design and fabrication of lightweight, high energy density actuators based on electrostatics. 
       I develop electrostatic transducers that harness interfacial forces for applications in robotics, power transmission, 
       dexterous manipulation, and advanced actuation. My interests lie at the intersection of robotics, interfacial phenomena, 
       and electrostatics, where I integrate mechanics, novel fabrication techniques, and mechatronic systems to advance the 
